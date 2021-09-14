@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#ffeaa4"
+    android:background="#F7FCFC"
     tools:context=".MainActivity">
 
    <RelativeLayout
@@ -16,17 +16,17 @@
        <ImageView
            android:layout_width="match_parent"
            android:layout_height="220dp"
-           android:src="@drawable/hbg"/>
+           android:src="@mipmap/banner"/>
 
-       <TextView
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:text="BDU Fellowship GC 2014"
-           android:textStyle="bold"
-           android:textSize="25sp"
-           android:textColor="#df03082b"
-           android:layout_centerHorizontal="true"
-           android:layout_marginTop="15dp"/>
+<!--       <TextView-->
+<!--           android:layout_width="wrap_content"-->
+<!--           android:layout_height="wrap_content"-->
+<!--           android:text="BDU Fellowship GC 2014"-->
+<!--           android:textStyle="bold"-->
+<!--           android:textSize="25sp"-->
+<!--           android:textColor="#df03082b"-->
+<!--           android:layout_centerHorizontal="true"-->
+<!--           android:layout_marginTop="15dp"/>-->
    </RelativeLayout>
 <ScrollView
     android:layout_width="wrap_content"
