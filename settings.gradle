@@ -1,0 +1,2 @@
+rootProject.name = "GC 2014 Digital Mag"
+include ':app'
