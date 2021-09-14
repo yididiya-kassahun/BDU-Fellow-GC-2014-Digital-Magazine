@@ -1,18 +1,252 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffeaa4"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="220dp"
+           android:src="@drawable/hbg"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="BDU Fellowship GC 2014"
+           android:textStyle="bold"
+           android:textSize="25sp"
+           android:textColor="#df03082b"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="15dp"/>
+   </RelativeLayout>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="440dp"
+        android:layout_height="548dp"
+        android:background="@drawable/cvbg"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="40dp"
+           >
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/cv1"
+                android:layout_marginTop="15dp"/>
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/poly"
+                android:layout_marginLeft="25dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poly Campus"
+                android:textColor="#d703082b"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poly Campus GC"
+                android:textColor="#6003082b"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="65dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/cv2" />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="65dp"
+                android:background="@drawable/selam"
+                android:layout_marginLeft="25dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selam Campus"
+                android:textColor="#d703082b"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selam Campus GC"
+                android:textColor="#6003082b"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="55dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/cv3" />
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/zenzelima"
+                android:layout_marginLeft="25dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zenzelima Campus"
+                android:textColor="#d703082b"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zenzelima Cmpus GC"
+                android:textColor="#6003082b"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="55dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/cv5" />
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/peda"
+                android:layout_marginLeft="25dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peda Campus"
+                android:textColor="#d703082b"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peda Campus GC"
+                android:textColor="#6003082b"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="55dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/cv1" />
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/peda"
+                android:layout_marginLeft="25dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yibab Campus"
+                android:textColor="#d703082b"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yibab Campus GC"
+                android:textColor="#6003082b"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="55dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
