@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.vlm.gc2014digitalmag">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,20 +11,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GC2014DigitalMag">
-        <activity android:name=".yibabActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".zenzelimaActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".selamActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".pedaActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".polyActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".splashScreenActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity"
-                  android:screenOrientation="portrait">
+        <activity android:name=".RecyclerViewAdapter"></activity>
+        <activity
+            android:name=".yibabActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zenzelimaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".selamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pedaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".polyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".splashScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
