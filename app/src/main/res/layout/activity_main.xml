@@ -47,6 +47,7 @@
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             android:layout_marginTop="40dp"
+            android:onClick="polyPage"
            >
 
             <ImageView
@@ -89,7 +90,8 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp">
+            android:layout_marginRight="40dp"
+            android:onClick="selamPage">
 
             <ImageView
                 android:layout_width="380dp"
@@ -130,7 +132,8 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp">
+            android:layout_marginRight="40dp"
+            android:onClick="zenzelimaPage">
 
             <ImageView
                 android:layout_width="380dp"
@@ -171,7 +174,8 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp">
+            android:layout_marginRight="40dp"
+            android:onClick="pedaPage">
 
             <ImageView
                 android:layout_width="380dp"
@@ -211,7 +215,8 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp">
+            android:layout_marginRight="40dp"
+            android:onClick="yibabPage">
 
             <ImageView
                 android:layout_width="380dp"
