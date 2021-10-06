@@ -76,7 +76,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Poly Campus GC"
+                android:text="Poly Campus Graduates"
                 android:textColor="#6003082b"
                 android:textSize="14dp"
                 android:textStyle="bold"
@@ -118,7 +118,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Selam Campus GC"
+                android:text="Selam Campus Graduates"
                 android:textColor="#6003082b"
                 android:textSize="14dp"
                 android:textStyle="bold"
@@ -160,7 +160,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Zenzelima Cmpus GC"
+                android:text="Zenzelima Campus Graduates"
                 android:textColor="#6003082b"
                 android:textSize="14dp"
                 android:textStyle="bold"
@@ -202,7 +202,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Peda Campus GC"
+                android:text="Peda Campus Graduates"
                 android:textColor="#6003082b"
                 android:textSize="14dp"
                 android:textStyle="bold"
@@ -226,7 +226,7 @@
             <ImageView
                 android:layout_width="65dp"
                 android:layout_height="65dp"
-                android:background="@drawable/peda"
+                android:background="@drawable/poly"
                 android:layout_marginLeft="25dp"
                 android:layout_centerVertical="true"/>
 
@@ -243,7 +243,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Yibab Campus GC"
+                android:text="Yibab Campus Graduates"
                 android:textColor="#6003082b"
                 android:textSize="14dp"
                 android:textStyle="bold"

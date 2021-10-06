@@ -18,17 +18,21 @@ public class polyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_poly);
 
-        imgArrylist.add("https://firebasestorage.googleapis.com/v0/b/bdu-fellowship-c6b49.appspot.com/o/62076777_695120370947454_3871601353042165760_n.jpg?alt=media&token=944e7d7f-eff0-4698-96a9-8b05f961d46a");
-        imgArrylist.add("https://firebasestorage.googleapis.com/v0/b/bdu-fellowship-c6b49.appspot.com/o/62076777_695120370947454_3871601353042165760_n.jpg?alt=media&token=944e7d7f-eff0-4698-96a9-8b05f961d46a");
-        imgArrylist.add("https://firebasestorage.googleapis.com/v0/b/bdu-fellowship-c6b49.appspot.com/o/62076777_695120370947454_3871601353042165760_n.jpg?alt=media&token=944e7d7f-eff0-4698-96a9-8b05f961d46a");
-        imgArrylist.add("https://firebasestorage.googleapis.com/v0/b/bdu-fellowship-c6b49.appspot.com/o/62076777_695120370947454_3871601353042165760_n.jpg?alt=media&token=944e7d7f-eff0-4698-96a9-8b05f961d46a");
-        imgArrylist.add("https://firebasestorage.googleapis.com/v0/b/bdu-fellowship-c6b49.appspot.com/o/62076777_695120370947454_3871601353042165760_n.jpg?alt=media&token=944e7d7f-eff0-4698-96a9-8b05f961d46a");
+        imgArrylist.add("");
+        imgArrylist.add("");
+        imgArrylist.add("");
+        imgArrylist.add("");
+        imgArrylist.add("");
+        imgArrylist.add("");
+        imgArrylist.add("");
 
-        lastwordlist.add("Mathias");
-        lastwordlist.add("yididia");
-        lastwordlist.add("abebe");
-        lastwordlist.add("kebede");
-        lastwordlist.add("Abdissa");
+        lastwordlist.add("");
+        lastwordlist.add("");
+        lastwordlist.add("");
+        lastwordlist.add("");
+        lastwordlist.add("");
+        lastwordlist.add("");
+        lastwordlist.add("");
 
       //  imgArrylist.addAll(lastwordlist);
 

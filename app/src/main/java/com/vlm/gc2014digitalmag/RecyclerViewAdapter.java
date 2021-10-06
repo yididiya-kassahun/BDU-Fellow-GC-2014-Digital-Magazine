@@ -30,14 +30,14 @@ ArrayList<String> lastwordlist;
     @Override
     public Myclass onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view= LayoutInflater.from(polyActivity).inflate(R.layout.activity_recycler_view_adapter,parent,false);
-        return new Myclass(view);
+        return new RecyclerViewAdapter.Myclass(view);
     }
 
     @NonNull
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerViewAdapter.Myclass holder, int position) {
-        Glide.with(polyActivity).load(imgArryList.get(position)).into(holder.imageView);
+        Glide.with(polyActivity).load(imgArryList.get(position)).placeholder(R.mipmap.defaultimage).into(holder.imageView);
         holder.setTitle(lastwordlist.get(position));
        // holder.lastword = lastwordlist.get(position);
       //  Glide.with(polyActivity).load(lastwordlist.get(position)).into(holder.lastword);
